@@ -6,7 +6,6 @@ public class arrayScoreboard {
         int col = 5;
         players = new int[row][col];
         Random rand = new Random();
-
         for (int i = 0; i < players.length; i++) {
             for (int j = 0; j < players[i].length; j++) {
                 players[i][j] = rand.nextInt(101); // 0-100
