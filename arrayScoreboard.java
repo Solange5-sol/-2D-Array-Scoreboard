@@ -2,7 +2,7 @@ import java.util.Random;
 public class arrayScoreboard {
     static int[][] players;
     public static void main(String[] args) {
-        int row = 4;
+        int row = 3;
         int col = 5;
         players = new int[row][col];
         Random rand = new Random();
